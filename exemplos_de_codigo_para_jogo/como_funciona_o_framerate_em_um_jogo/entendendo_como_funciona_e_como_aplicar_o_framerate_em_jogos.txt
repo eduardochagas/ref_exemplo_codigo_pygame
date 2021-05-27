@@ -1,0 +1,17 @@
+#############################################################
+#
+#  Código mostrando a comparação de movimento  
+#  de um objeto COM FRAMERATE do jogo e outro objeto SEM O FRAMERATE do jogo
+#
+#############################################################
+
+Se o código da pasta 5.3 for executado, você verá dois sprites se moverem na tela. 
+O SPRITE SUPERIOR se move a 30 frames por segundo ou tão suavemente quanto o seu computador permitir,
+; O OUTRO SPRITE SIMULARÁ UM COMPUTADOR LENTO ao ATUALIZAR-SE SOMENTE A CADA 5 FRAMES. Você perceberá que, 
+EMBORA O MOVIMENTO DO SEGUNDO SPRITE SEJA MUITO IRREGULAR, na verdade, ELE SE MOVERÁ 
+COM A MESMA VELOCIDADE MÉDIA. Sendo assim, em jogos que usem movimentos baseados em tempo, uma taxa baixa de frames
+resultará em uma experiência visual menos agradável, porém não deixará a ação mais lenta.
+
+    OBS: Embora seja possivel usar jogos bem escritos com taxas baixas de frames, as pessoas desistirão de jogar se
+    o movimento for muito irregular. Pessoalmente, eu não gostaria de usar um jogo que 
+    executasse a menos de 15 frames por segundo, pois poderia ser muito confuso.
